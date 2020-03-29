@@ -3,11 +3,11 @@ cmake_minimum_required(VERSION 3.16)
 set(This ExampleTests)
 
 set(Sources
-    UnitTests.cpp
+    tests.cpp
 )
 
 
-add_excecutibles(${This} ${Sources})
+add_executable(${This} ${Sources})
 target_link_libraries(${This} PUBLIC
     gtest_main
     ProjectOne

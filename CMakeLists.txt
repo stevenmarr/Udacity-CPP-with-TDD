@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(This Example)
+set(This ProjectOne)
 
 project(${This} C CXX)
 
@@ -13,16 +13,13 @@ enable_testing()
 add_subdirectory(googletest)
 
 set(Headers
-  ProjectOne.hpp  
+    ProjectOne.hpp
 )
 
 set(Sources
-  ProjectOne.cpp
+    ProjectOne.cpp
 )
 
-add_library(${This} STATIC &{Sources} ${Headers})
+add_library(${This} STATIC ${Sources} ${Headers})
 
 add_subdirectory(tests)
-
-
-
