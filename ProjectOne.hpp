@@ -1,0 +1,4 @@
+#ifndef PROJECTONE_HPP
+#define PROJECTONE_HPP
+
+#endif /* PROJECTONE_HPP */
