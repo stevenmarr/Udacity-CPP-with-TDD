@@ -14,7 +14,7 @@ using std::string;
 using std::vector;
 
 vector<int> ParseLine(string line);
-void ReadBoardFile(string path);
+vector<vector<int>> ReadBoardFile(string path);
 void PrintBoard(const vector<vector<int>> board);
 
 #endif /* PROJECTONE_HPP */
